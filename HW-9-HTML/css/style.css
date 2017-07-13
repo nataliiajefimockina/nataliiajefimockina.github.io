@@ -29,15 +29,15 @@ html {
     height: 846px;
     background: url('../img/bg-mount.jpg') top center repeat;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-mount.jpg', sizingMethod='scale'); /* IE 5.5-7*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-mount.jpg', sizingMethod='scale')"; /* IE8+ */
+    /*filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-mount.jpg', sizingMethod='scale')"; /* IE 5.5-7*/*/
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-mount.jpg', sizingMethod='scale')"; /* IE8+ */*/
 }
 
 /* HEADER */
 .content-box {
     width: 100%;
     max-width: 960px;
-    width:expression(document.body.clientWidth > 960? "960px" : "auto"); /* для IE */
+    /*width:expression(document.body.clientWidth > 960? "960px": "auto" ); /* для IE */*/
     margin: 0 auto;
 }
 
@@ -86,7 +86,7 @@ html {
     -o-text-shadow: rgba(43, 43, 43, .3) 0 0 1px;
     -webkit-text-shadow: rgba(43, 43, 43, .3) 0 0 1px;
     text-shadow: rgba(43, 43, 43, .3) 0 0 1px;
-    filter: progid:DXImageTransform.Microsoft.Shadow(Color=#2b2b2b, Direction=45, Strength=4); /* IE 8-9 */
+    /*filter: progid:DXImageTransform.Microsoft.Shadow(Color=#2b2b2b, Direction=45, Strength=4); /* IE 8-9 */*/
     text-transform: uppercase;
 }
 
@@ -108,7 +108,7 @@ html {
 
 .wrapper {
     max-width: 960px;
-    width:expression(document.body.clientWidth > 960? "960px" : "auto"); /* для IE */
+    /*width:expression(document.body.clientWidth > 960? "960px": "auto" ); /* для IE */*/
     margin: 0 auto;
 }
 
